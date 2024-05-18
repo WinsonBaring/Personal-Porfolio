@@ -5,17 +5,24 @@ import Intro from "sections/Intro";
 import About from "sections/About";
 import Skills from "sections/Skills";
 import Projects from "sections/Projects";
+import Contact from 'sections/Contact';
+import Footer from 'sections/Footer';
 
 function App() {
     return (
-          <html className='m-10 mx-20'>
+          <html className=''>
+            <article className='m-10 mx-[7rem]'>
+
             <Header/> 
             <Intro/> 
-            <section className='flex flex-col w-full items-center space-y-[15rem]'>
+            <section className='flex flex-col w-full items-center space-y-[10rem]'>
               <About/>
               <Skills/>
               <Projects/>
+              <Contact/>
             </section>
+            </article>
+              <Footer/>
           </html>
 
     );

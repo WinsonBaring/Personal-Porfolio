@@ -6,10 +6,9 @@ const header_name = {
 };
 
 const skillset = [
-    "Home",
     "About",
-    "Technical Skills",
-    "Project",
+    "Skills",
+    "Projects",
 ];
 const intro = {
     intro:"Hi, I'm",
@@ -45,7 +44,7 @@ const about = {
 }
 
 const projects ={ 
-    title: "Works",
+    title: "Projects",
     projects: [{
     image: "assets/Project.jpg",
     title:"Identity Your Animal", 
@@ -97,6 +96,22 @@ const projects ={
 ]
 }
 
+const social_media = [
+    {
+        socialmedia:"linkedin",
+        link:"https://www.linkedin.com/in/winson-baring-a1329b219/",
+    },
+    {
+        socialmedia:"github",
+        link:"https://github.com/WinsonBaring",
+    },
+    {
+        socialmedia:"facebook",
+        link:"https://www.facebook.com/Winsonismine",
+    },
+]
+
+
 
 export {
     header_name,
@@ -105,4 +120,6 @@ export {
     skills,
     about,
     projects,
+    social_media,
+
 }

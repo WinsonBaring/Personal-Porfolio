@@ -1,12 +1,10 @@
 import React from 'react'
 import { header_name,skillset } from '../profile'
 import Button from "components/Button"
+import { Link } from 'react-scroll'
+import CommonButton from '../components/CommonButton'
 
 const Header = () => {
-    const clicker = ()=>{
-        alert('email: winsonbaring10@gmail.com')
-        alert('number: 09760392357')
-    }
     return (
         <header className='flex justify-between space-x-8 items-center border border-black-600  bg-transparent  rounded-lg p-4'>
             <h1 className='text-[3rem] font-mono'>
@@ -20,7 +18,15 @@ const Header = () => {
                 <ul className='flex justify-items-center space-x-8'>
                     {skillset.map((skill)=>{
                         return(
-                            <li key={skill}>{skill}</li>
+                            <Link className=''
+                                to={`${skill}`}
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                <CommonButton key={skill} children={skill} styler={"px-2 py-1"} texter={"bg-slate-200 hover:bg-green-100 ring2 ring-green-500"}/>
+                            </Link>
                         )
                     })}
                 </ul>
@@ -29,10 +35,15 @@ const Header = () => {
 
             {/*  Contact Button 
             */}
-            <Button
-            children = "Contact"
-            onClick = {clicker}
-            />
+            <Link
+            to={'Contact'}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            >
+                <Button children = "Contact"/>
+            </Link>
         </header>
     )
 }

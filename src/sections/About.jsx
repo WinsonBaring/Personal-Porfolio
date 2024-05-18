@@ -18,8 +18,7 @@ const About = () => {
               <section className='ml-20 w-full'>
 
                 {/* About */}
-                <CommonButton children={about.intro}/>
-
+                <CommonButton children={about.intro} />
 
                 <CommonTitle children={about.title}/>
   
