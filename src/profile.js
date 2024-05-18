@@ -7,6 +7,7 @@ const skillset = [
     "About",
     "Skills",
     "Projects",
+    "Experience",
 ];
 const intro = {
     intro:"Hi, I'm",
@@ -45,7 +46,8 @@ const about = {
 }
 
 const projects ={ 
-    title: "Projects that I coded:",
+    title:"Projects",
+    description: "Things I've Build so far:",
     projects: [{
     image: "assets/Project.jpg",
     title:"Identity Your Animal", 
@@ -71,9 +73,16 @@ const projects ={
     {
     image: "assets/Project.jpg",
     title:"Bank Management System Netbeans", 
-    description:"A functino Bank Management System built using Netbeans and Java",
+    description:"A functional Bank Management System built using Netbeans and Java",
     tools_used:["Netbeans","Java","Xammp","MySql"],
     source_code: "https://github.com/WinsonBaring/Bank_Functional_OOP",
+    },
+    {
+    image: "assets/Project.jpg",
+    title:"Laundiri", 
+    description:"A comprehensive laundry management application that facilitates the process between clients, couriers, and laundry shops. This app streamlines the laundry service by providing a seamless experience for users to request, manage, and fulfill laundry orders.",
+    tools_used:["Android Studio","Java","SQLite"],
+    source_code: "https://github.com/jmarcbalbada/laundirii",
     },
    
 ]
@@ -94,6 +103,27 @@ const social_media = [
     },
 ]
 
+const experience = {
+    title:"Work Experience",
+    description:"Here is a quick summary of my most recent experiences",
+    experience:[
+          {
+            company_name: "Present",
+            job_title: "Looking Intern +",
+            description: "",
+            tools_learned: "",
+          },
+        {
+            company_name: "Wind's Gate Philippines",
+            job_title: "Part-Time Software Developer",
+            description: "Worked on developing and maintaining web applications.",
+            tools_learned: "Monitoring",
+          },
+    ]
+
+}
+
+
 
 
 export {
@@ -104,5 +134,6 @@ export {
     about,
     projects,
     social_media,
+    experience
 
 }

@@ -11,12 +11,12 @@ const Projects = () => {
         <Element className='flex flex-col items-center justify-center' id='Projects' name='Projects'>
             {/* Title Description */}
             <section className='text-center'>
-                <CommonButton children={"Projects"} />
-                <CommonTitle children={projects.title} />
+                <CommonButton children={projects.title} />
+                <CommonTitle children={projects.description} />
             </section>
 
             {/* Skills Mapping */}
-            <section className="flex justify-center flex-wrap mx-48 items-center ">
+            <section className="flex justify-center flex-wrap basis-1/3 items-center ">
                 {projects.projects.map((project, index) => {
                 return(
                     <Card
