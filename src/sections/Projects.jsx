@@ -11,7 +11,7 @@ const Projects = () => {
         <Element className='flex flex-col items-center justify-center' id='Projects' name='Projects'>
             {/* Title Description */}
             <section className='text-center'>
-                <CommonButton children={projects.title} />
+                <CommonButton children={"Projects"} />
                 <CommonTitle children={projects.title} />
             </section>
 

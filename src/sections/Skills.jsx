@@ -12,6 +12,9 @@ import { NpmOriginalWordmark } from 'devicons-react';
 import { NextjsOriginal } from 'devicons-react';
 import { VitejsOriginal } from 'devicons-react';
 import { AndroidstudioOriginal } from 'devicons-react';
+import { MaterialuiOriginal } from 'devicons-react'; 
+import { TailwindcssOriginal } from 'devicons-react';
+import { DockerOriginalWordmark } from 'devicons-react';
 
 const Skills = () => {
     // The  Name should match here
@@ -26,6 +29,10 @@ const Skills = () => {
          nextjs:<NextjsOriginal color="skyblue" size="75"  />,
          vitejs:<VitejsOriginal color="skyblue" size="75"  />,
          androidstudio:<AndroidstudioOriginal color="skyblue" size="75"  />,
+         materialui:<MaterialuiOriginal color="skyblue" size="75"  />,
+         tailwindcss:<TailwindcssOriginal color="skyblue" size="75"  />,
+         docker:<DockerOriginalWordmark color="skyblue" size="75"  />,
+
       };
   return (
     <Fragment>
@@ -38,11 +45,11 @@ const Skills = () => {
                     {skills.intro}
                 </h1>
 
-                <section className='flex space-x-10 flex-wrap w-3/4 justify-center'>
+                <section className='flex   flex-wrap w-3/4 justify-center'>
                     {skills.skillset.map((skillss,index)=>{
                         const image = iconList[skillss.tool.name]
                         return(
-                            <div key={index} >
+                            <div className='m-8' key={index} >
                                 {image}
                             </div>
                         )

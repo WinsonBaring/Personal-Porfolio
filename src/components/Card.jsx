@@ -22,7 +22,7 @@ const Card = ({ image, title, description, tools_used, source_code, live_demo })
         })}
       </div>
       <section className="flex flex-row justify-between underline px-6 pt-4 pb-2">
-        <section className='flex flex-row items-center justify-center'>
+        { source_code && <section className='flex flex-row items-center justify-center'>
             <img src={github} alt=""  className='w-5 mr-2'/>
             <a
             href={source_code}
@@ -32,8 +32,8 @@ const Card = ({ image, title, description, tools_used, source_code, live_demo })
             >
             View Code
             </a>
-        </section>
-        <section className='flex flex-row items-center justify-center'>
+          </section>}
+        { live_demo &&<section className='flex flex-row items-center justify-center'>
 
             <a
             href={live_demo}
@@ -41,10 +41,10 @@ const Card = ({ image, title, description, tools_used, source_code, live_demo })
             target="_blank"
             rel="noopener noreferrer"
             >
-            Live Demo
+            Live Preview
             </a>
             <img src={link} alt="" className='ml-2 w-5 '/>
-        </section>
+        </section>}
       </section>
     </section>
   );

@@ -32,6 +32,9 @@ const skills = {
     {tool:{name: "nextjs"}},
     {tool:{name: "vitejs"}},
     {tool:{name: "androidstudio"}},
+    {tool:{name: "materialui"}},
+    {tool:{name: "tailwindcss"}},
+    {tool:{name: "docker"}},
     ]
 
 }
@@ -42,55 +45,37 @@ const about = {
 }
 
 const projects ={ 
-    title: "Projects",
+    title: "Projects that I coded:",
     projects: [{
     image: "assets/Project.jpg",
     title:"Identity Your Animal", 
-    description:"Web Application that Identify Animal",
-    tools_used:["React","Tailwind","Github","React","Tailwind","Github","React","Tailwind","Github"],
-    source_code: "http://github.identify.com",
-    link: "http://animal.identify.com"
+    description:"Web Application that uses AI to identify a type of animal",
+    tools_used:["Python","Streamlit","Machine Learning","Github"],
+    source_code: "https://github.com/WinsonBaring/Machine-Learning-Classification",
+    link: "https://identify-your-animal.streamlit.app/"
     }, 
     {
     image: "assets/Project.jpg",
-    title:"Identity your animal", 
-    description:"Web Application that Identify Animal",
-    tools_used:["React","Tailwind","Github","React","Tailwind","Github","React","Tailwind","Github"],
-    source_code: "http://github.identify.com",
-    link: "http://animal.identify.com"
+    title:"Techno-Dynamic-Learning V2 (TechnoDynamic V2)", 
+    description:"Techno-Dynamic-Learning V2 is an advanced learning management system designed specifically for technopreneurship courses. Building upon the foundation of Techno-Dynamic-Learning V1, this extended version incorporates dynamic content generation and insightful suggestions based on frequently asked questions (FAQ) from students.",
+    tools_used:["React","Django","Github","Docker","Material UI","Github","React","Tailwind","Github"],
+    source_code: "https://github.com/WinsonBaring/techno-dynamic-v2",
     },
     {
     image: "assets/Project.jpg",
-    title:"Identity your animal", 
-    description:"Web Application that Identify Animal",
-    tools_used:["React","Tailwind","Github"],
-    source_code: "http://github.identify.com",
-    link: "http://animal.identify.com"
+    title:"Task Management SpringBoot API", 
+    description:"Task Management Application built with Java and Spring Boot. It allows users to create, view, update, and delete tasks.",
+    tools_used:["SpringBoot","Github"],
+    source_code: "https://github.com/WinsonBaring/Task-Management-Entities",
     },
     {
     image: "assets/Project.jpg",
-    title:"Identity your animal", 
-    description:"Web Application that Identify Animal",
-    tools_used:["React","Tailwind","Github"],
-    source_code: "http://github.identify.com",
-    link: "http://animal.identify.com"
+    title:"Bank Management System Netbeans", 
+    description:"A functino Bank Management System built using Netbeans and Java",
+    tools_used:["Netbeans","Java","Xammp","MySql"],
+    source_code: "https://github.com/WinsonBaring/Bank_Functional_OOP",
     },
-    {
-    image: "assets/Project.jpg",
-    title:"Identity your animal", 
-    description:"Web Application that Identify Animal",
-    tools_used:["React","Tailwind","Github"],
-    source_code: "http://github.identify.com",
-    link: "http://animal.identify.com"
-    },
-    {
-    image: "assets/Project.jpg",
-    title:"Identity your animal", 
-    description:"Web Application that Identify Animal",
-    tools_used:["React","Tailwind","Github","React","Tailwind","Github","React","Tailwind","Github"],
-    source_code: "http://github.identify.com",
-    link: "http://animal.identify.com"
-    }
+   
 ]
 }
 
