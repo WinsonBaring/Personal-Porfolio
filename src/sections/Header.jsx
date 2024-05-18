@@ -6,7 +6,7 @@ import CommonButton from '../components/CommonButton'
 
 const Header = () => {
     return (
-        <header className='flex justify-between space-x-8 items-center border border-black-600  bg-transparent  rounded-lg p-4'>
+        <header className=' flex justify-between space-x-8 items-center border border-black-600  bg-transparent  rounded-lg p-4'>
             <h1 className='text-[3rem] font-mono'>
                 <span className='font-bold text-green-500'>{`<W`}</span>
                 {`${header_name.name}`}

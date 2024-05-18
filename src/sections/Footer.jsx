@@ -13,7 +13,7 @@ const Footer = () => {
         facebook: <FacebookOriginal color="red" size="30"  />,
       }
   return (
-    <footer className="flex justify-between mt-[10rem] bg-slate-300 text-black py-10 px-20">
+    <footer className="m-0 flex justify-between mt-[10rem] bg-slate-300 text-black py-10 px-20">
       <h1 className='text-[3rem] font-mono'>
                 <span className='font-bold text-green-500'>{`<W`}</span>
                 {`${header_name.name}`}

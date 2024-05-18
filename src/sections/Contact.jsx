@@ -40,20 +40,31 @@ const Contact = () => {
                 <div className="grid grid-cols-1  gap-6">
                     <input
                     type="email"
-                    placeholder="Your Email"
+                    // disabled={true}
+                    value="winsonbaring10@gmail.com"
+                    className="w-full px-4 py-2 border border-slate-300 rounded-md"
+                    />
+                </div>
+                <div className="grid grid-cols-1  gap-6">
+                    <input
+                    type="text"
+                    // disabled={true}
+                    value="09760392357 "
                     className="w-full px-4 py-2 border border-slate-300 rounded-md"
                     />
                 </div>
                 <textarea
-                    placeholder="Your Message"
+                    disabled={true}
+                    placeholder="Hello, please reach me out with my email or phone number"
                     className="w-full px-4 py-2 border border-slate-300 rounded-md h-40"
                 ></textarea>
-                <button
+                {/* <button
                     type="submit"
+                    disabled={true}
                     className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md"
                 >
                     Send Message
-                </button>
+                </button> */}
                 </form>
             </div>
         </Element>
