@@ -4,7 +4,7 @@ const CommonButton = ({ children, onClick }) => {
   return (
     <button
       onClick={onClick}
-      className="px-[.9rem] bg-slate-200 rounded-md"
+      className="py-[.4rem] px-[1rem] bg-slate-200 rounded-md"
     >
         
       {children}

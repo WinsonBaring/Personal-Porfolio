@@ -1,3 +1,6 @@
+import { ReactOriginalWordmark } from 'devicons-react';
+import { SpringOriginalWordmark } from 'devicons-react';    
+
 const header_name = {
     name: "inson",
 };
@@ -15,12 +18,26 @@ const intro = {
     highlight: "",
 }
 
-const skills = [
-    "React",
-    "Django",
-    "SpringBoot",
-    "SQL",
-]
+
+
+// manually add the image to the sections/Skills
+// the name should match
+const skills = {
+    intro:"The skills,tools, and technologies that I am good at:",
+    skillset:[
+    {tool:{name: "react"}},
+    {tool:{name: "spring"}},
+    {tool:{name: "mysql"}},
+    {tool:{name: "django"}},
+    {tool:{name: "djangorest"}},
+    {tool:{name: "npm"}},
+    {tool:{name: "github"}},
+    {tool:{name: "nextjs"}},
+    {tool:{name: "vitejs"}},
+    {tool:{name: "androidstudio"}},
+    ]
+
+}
 const about = {
     intro:"About",
     title:"A Computer Science Student ",

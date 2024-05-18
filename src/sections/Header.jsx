@@ -4,7 +4,8 @@ import Button from "components/Button"
 
 const Header = () => {
     const clicker = ()=>{
-        alert('clicked')
+        alert('email: winsonbaring10@gmail.com')
+        alert('number: 09760392357')
     }
     return (
         <header className='flex justify-between space-x-8 items-center border border-black-600  bg-transparent  rounded-lg p-4'>
