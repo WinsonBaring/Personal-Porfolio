@@ -4,7 +4,7 @@ const CommonTitle = ({ children, onClick ,styler}) => {
   return (
     <h1
       onClick={onClick}
-      className="font-mono font-bold mt-[10px] text-green-500 text-4xl w-[50rem] "
+      className={`font-mono font-bold mt-[10px] text-green-500 text-4xl w-[50rem] ${styler}`}
     >
         
       {children}

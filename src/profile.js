@@ -43,10 +43,66 @@ const about = {
     title:"A Computer Science Student ",
     description:"I'm Winson Baring, a third-year Computer Science student at Cebu Institute of Technology University in Cebu City. With a strong passion for software development and AI, I've gained hands-on experience through various projects and a part-time role as a Software Developer at Wind's Gate Philippines. I thrive on solving complex problems and continually expanding my skill set, which includes Python, ReactJS, Django, and SQL, among others. I'm excited to apply my knowledge and enthusiasm for technology to real-world challenges and make a meaningful impact.",
 }
+
+const projects ={ 
+    title: "Works",
+    projects: [{
+    image: "assets/Project.jpg",
+    title:"Identity Your Animal", 
+    description:"Web Application that Identify Animal",
+    tools_used:["React","Tailwind","Github","React","Tailwind","Github","React","Tailwind","Github"],
+    source_code: "http://github.identify.com",
+    link: "http://animal.identify.com"
+    }, 
+    {
+    image: "assets/Project.jpg",
+    title:"Identity your animal", 
+    description:"Web Application that Identify Animal",
+    tools_used:["React","Tailwind","Github","React","Tailwind","Github","React","Tailwind","Github"],
+    source_code: "http://github.identify.com",
+    link: "http://animal.identify.com"
+    },
+    {
+    image: "assets/Project.jpg",
+    title:"Identity your animal", 
+    description:"Web Application that Identify Animal",
+    tools_used:["React","Tailwind","Github"],
+    source_code: "http://github.identify.com",
+    link: "http://animal.identify.com"
+    },
+    {
+    image: "assets/Project.jpg",
+    title:"Identity your animal", 
+    description:"Web Application that Identify Animal",
+    tools_used:["React","Tailwind","Github"],
+    source_code: "http://github.identify.com",
+    link: "http://animal.identify.com"
+    },
+    {
+    image: "assets/Project.jpg",
+    title:"Identity your animal", 
+    description:"Web Application that Identify Animal",
+    tools_used:["React","Tailwind","Github"],
+    source_code: "http://github.identify.com",
+    link: "http://animal.identify.com"
+    },
+    {
+    image: "assets/Project.jpg",
+    title:"Identity your animal", 
+    description:"Web Application that Identify Animal",
+    tools_used:["React","Tailwind","Github","React","Tailwind","Github","React","Tailwind","Github"],
+    source_code: "http://github.identify.com",
+    link: "http://animal.identify.com"
+    }
+]
+}
+
+
 export {
     header_name,
     skillset,
     intro,
     skills,
     about,
+    projects,
 }

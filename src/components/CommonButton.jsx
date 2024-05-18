@@ -1,10 +1,10 @@
 import React from 'react';
 
-const CommonButton = ({ children, onClick }) => {
+const CommonButton = ({ children, onClick,styler }) => {
   return (
     <button
       onClick={onClick}
-      className="py-[.4rem] px-[1rem] bg-slate-200 rounded-md"
+      className= {`  bg-slate-200 rounded-md ${styler?styler:"py-[.4rem] px-[1rem]"}`}
     >
         
       {children}
