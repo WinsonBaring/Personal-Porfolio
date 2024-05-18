@@ -1,5 +1,3 @@
-import { ReactOriginalWordmark } from 'devicons-react';
-import { SpringOriginalWordmark } from 'devicons-react';    
 
 const header_name = {
     name: "inson",

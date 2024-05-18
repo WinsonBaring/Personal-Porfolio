@@ -1,7 +1,6 @@
 import React from 'react'
 import { intro } from '../profile'
 import cover from 'assets/bg-cover.png'
-import BlurredEdgeImage from 'components/BlurredEdgeImage'
 
 const Intro = () => {
   
