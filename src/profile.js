@@ -15,7 +15,7 @@ const intro = {
     highlight: "",
 }
 
-const technical_skills = [
+const skills = [
     "React",
     "Django",
     "SpringBoot",
@@ -23,12 +23,13 @@ const technical_skills = [
 ]
 const about = {
     intro:"About",
-    title:"This is winson",
-    description:"This is winson",
+    title:"A Computer Science Student ",
+    description:"I'm Winson Baring, a third-year Computer Science student at Cebu Institute of Technology University in Cebu City. With a strong passion for software development and AI, I've gained hands-on experience through various projects and a part-time role as a Software Developer at Wind's Gate Philippines. I thrive on solving complex problems and continually expanding my skill set, which includes Python, ReactJS, Django, and SQL, among others. I'm excited to apply my knowledge and enthusiasm for technology to real-world challenges and make a meaningful impact.",
 }
 export {
     header_name,
     skillset,
     intro,
-    technical_skills,
+    skills,
+    about,
 }
